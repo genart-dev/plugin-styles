@@ -53,7 +53,7 @@
   },
   "dependencies": {
     "@genart-dev/core": "^0.3.0",
-    "@genart-dev/styles": "file:../styles"
+    "@genart-dev/styles": "^0.1.0"
   },
   "devDependencies": {
     "tsup": "^8.3.6",
