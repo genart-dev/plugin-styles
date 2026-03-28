@@ -5,7 +5,7 @@ import { styleMcpTools } from "./style-tools.js";
 const stylesPlugin: DesignPlugin = {
   id: "styles",
   name: "Art Styles & Recipes",
-  version: "0.1.0",
+  version: "0.2.0",
   tier: "free",
   description:
     "Art movements, artist profiles, and style recipes for generative art. Provides style search, natural-language suggestions, palette extraction, and recipe-based layer stacks.",
@@ -21,3 +21,8 @@ export default stylesPlugin;
 export { stylesPlugin };
 export { referenceLayerType };
 export { styleMcpTools };
+export {
+  blendStyles,
+  type StyleValue,
+  type StyleRecipe,
+} from "./style-blend.js";
